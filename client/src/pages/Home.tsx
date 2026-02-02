@@ -187,20 +187,20 @@ export default function Home() {
           <h2 className="text-5xl font-black mb-12 text-center gradient-text">COMPETITIVE ANALYSIS</h2>
           
           <Tabs defaultValue="rollbit" className="max-w-6xl mx-auto">
-            <TabsList className="grid w-full grid-cols-5 mb-8 bg-transparent p-0 gap-4 border-b-2 border-border">
-              <TabsTrigger value="rollbit" className="px-6 py-4 text-lg font-bold rounded-t-lg border-b-4 border-transparent data-[state=active]:border-b-primary data-[state=active]:bg-primary/10 data-[state=active]:text-primary hover:bg-primary/5 transition-all">
+            <TabsList className="grid w-full grid-cols-5 mb-8 bg-transparent p-0 gap-4">
+              <TabsTrigger value="rollbit" className="px-6 py-4 text-lg font-bold rounded-lg border-2 border-primary/30 data-[state=active]:border-primary data-[state=active]:bg-primary/10 data-[state=active]:text-primary hover:border-primary/60 hover:bg-primary/5 transition-all">
                 Rollbit
               </TabsTrigger>
-              <TabsTrigger value="rush" className="px-6 py-4 text-lg font-bold rounded-t-lg border-b-4 border-transparent data-[state=active]:border-b-accent data-[state=active]:bg-accent/10 data-[state=active]:text-accent hover:bg-accent/5 transition-all">
+              <TabsTrigger value="rush" className="px-6 py-4 text-lg font-bold rounded-lg border-2 border-accent/30 data-[state=active]:border-accent data-[state=active]:bg-accent/10 data-[state=active]:text-accent hover:border-accent/60 hover:bg-accent/5 transition-all">
                 Rush Trade
               </TabsTrigger>
-              <TabsTrigger value="rugs" className="px-6 py-4 text-lg font-bold rounded-t-lg border-b-4 border-transparent data-[state=active]:border-b-chart-3 data-[state=active]:bg-chart-3/10 data-[state=active]:text-chart-3 hover:bg-chart-3/5 transition-all">
+              <TabsTrigger value="rugs" className="px-6 py-4 text-lg font-bold rounded-lg border-2 border-chart-3/30 data-[state=active]:border-chart-3 data-[state=active]:bg-chart-3/10 data-[state=active]:text-chart-3 hover:border-chart-3/60 hover:bg-chart-3/5 transition-all">
                 Rugs.fun
               </TabsTrigger>
-              <TabsTrigger value="bcgame" className="px-6 py-4 text-lg font-bold rounded-t-lg border-b-4 border-transparent data-[state=active]:border-b-chart-5 data-[state=active]:bg-chart-5/10 data-[state=active]:text-chart-5 hover:bg-chart-5/5 transition-all">
+              <TabsTrigger value="bcgame" className="px-6 py-4 text-lg font-bold rounded-lg border-2 border-chart-5/30 data-[state=active]:border-chart-5 data-[state=active]:bg-chart-5/10 data-[state=active]:text-chart-5 hover:border-chart-5/60 hover:bg-chart-5/5 transition-all">
                 BC.Game
               </TabsTrigger>
-              <TabsTrigger value="coinfutures" className="px-6 py-4 text-lg font-bold rounded-t-lg border-b-4 border-transparent data-[state=active]:border-b-chart-2 data-[state=active]:bg-chart-2/10 data-[state=active]:text-chart-2 hover:bg-chart-2/5 transition-all">
+              <TabsTrigger value="coinfutures" className="px-6 py-4 text-lg font-bold rounded-lg border-2 border-chart-2/30 data-[state=active]:border-chart-2 data-[state=active]:bg-chart-2/10 data-[state=active]:text-chart-2 hover:border-chart-2/60 hover:bg-chart-2/5 transition-all">
                 CoinFutures
               </TabsTrigger>
             </TabsList>
@@ -528,12 +528,12 @@ export default function Home() {
           
           <div className="max-w-6xl mx-auto">
             <Tabs defaultValue="rollbit" className="w-full">
-              <TabsList className="grid w-full grid-cols-5 mb-8 bg-transparent p-0 gap-4 border-b-2 border-border">
-                <TabsTrigger value="rollbit" className="px-6 py-4 text-lg font-bold rounded-t-lg border-b-4 border-transparent data-[state=active]:border-b-primary data-[state=active]:bg-primary/10 data-[state=active]:text-primary hover:bg-primary/5 transition-all">Rollbit</TabsTrigger>
-                <TabsTrigger value="rush" className="px-6 py-4 text-lg font-bold rounded-t-lg border-b-4 border-transparent data-[state=active]:border-b-accent data-[state=active]:bg-accent/10 data-[state=active]:text-accent hover:bg-accent/5 transition-all">Rush Trade</TabsTrigger>
-                <TabsTrigger value="bcgame" className="px-6 py-4 text-lg font-bold rounded-t-lg border-b-4 border-transparent data-[state=active]:border-b-chart-5 data-[state=active]:bg-chart-5/10 data-[state=active]:text-chart-5 hover:bg-chart-5/5 transition-all">BC.Game</TabsTrigger>
-                <TabsTrigger value="rugs" className="px-6 py-4 text-lg font-bold rounded-t-lg border-b-4 border-transparent data-[state=active]:border-b-chart-3 data-[state=active]:bg-chart-3/10 data-[state=active]:text-chart-3 hover:bg-chart-3/5 transition-all">Rugs.fun</TabsTrigger>
-                <TabsTrigger value="coinfutures" className="px-6 py-4 text-lg font-bold rounded-t-lg border-b-4 border-transparent data-[state=active]:border-b-chart-2 data-[state=active]:bg-chart-2/10 data-[state=active]:text-chart-2 hover:bg-chart-2/5 transition-all">CoinFutures</TabsTrigger>
+              <TabsList className="grid w-full grid-cols-5 mb-8 bg-transparent p-0 gap-4">
+                <TabsTrigger value="rollbit" className="px-6 py-4 text-lg font-bold rounded-lg border-2 border-primary/30 data-[state=active]:border-primary data-[state=active]:bg-primary/10 data-[state=active]:text-primary hover:border-primary/60 hover:bg-primary/5 transition-all">Rollbit</TabsTrigger>
+                <TabsTrigger value="rush" className="px-6 py-4 text-lg font-bold rounded-lg border-2 border-accent/30 data-[state=active]:border-accent data-[state=active]:bg-accent/10 data-[state=active]:text-accent hover:border-accent/60 hover:bg-accent/5 transition-all">Rush Trade</TabsTrigger>
+                <TabsTrigger value="bcgame" className="px-6 py-4 text-lg font-bold rounded-lg border-2 border-chart-5/30 data-[state=active]:border-chart-5 data-[state=active]:bg-chart-5/10 data-[state=active]:text-chart-5 hover:border-chart-5/60 hover:bg-chart-5/5 transition-all">BC.Game</TabsTrigger>
+                <TabsTrigger value="rugs" className="px-6 py-4 text-lg font-bold rounded-lg border-2 border-chart-3/30 data-[state=active]:border-chart-3 data-[state=active]:bg-chart-3/10 data-[state=active]:text-chart-3 hover:border-chart-3/60 hover:bg-chart-3/5 transition-all">Rugs.fun</TabsTrigger>
+                <TabsTrigger value="coinfutures" className="px-6 py-4 text-lg font-bold rounded-lg border-2 border-chart-2/30 data-[state=active]:border-chart-2 data-[state=active]:bg-chart-2/10 data-[state=active]:text-chart-2 hover:border-chart-2/60 hover:bg-chart-2/5 transition-all">CoinFutures</TabsTrigger>
               </TabsList>
               
               <TabsContent value="rollbit">
