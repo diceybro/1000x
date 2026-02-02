@@ -1,6 +1,19 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@layer components {
+  .border-primary\/30 { border-color: rgb(0 218 60 / 0.3); }
+  .border-primary\/60 { border-color: rgb(0 218 60 / 0.6); }
+  .border-accent\/30 { border-color: rgb(0 218 60 / 0.3); }
+  .border-accent\/60 { border-color: rgb(0 218 60 / 0.6); }
+  .border-chart-2\/30 { border-color: rgb(255 237 78 / 0.3); }
+  .border-chart-2\/60 { border-color: rgb(255 237 78 / 0.6); }
+  .border-chart-3\/30 { border-color: rgb(255 59 48 / 0.3); }
+  .border-chart-3\/60 { border-color: rgb(255 59 48 / 0.6); }
+  .border-chart-5\/30 { border-color: rgb(0 122 255 / 0.3); }
+  .border-chart-5\/60 { border-color: rgb(0 122 255 / 0.6); }
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
