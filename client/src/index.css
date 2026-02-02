@@ -2,16 +2,16 @@
 @import "tw-animate-css";
 
 @layer components {
-  .border-primary\/30 { border-color: rgb(0 218 60 / 0.3); }
-  .border-primary\/60 { border-color: rgb(0 218 60 / 0.6); }
-  .border-accent\/30 { border-color: rgb(0 218 60 / 0.3); }
-  .border-accent\/60 { border-color: rgb(0 218 60 / 0.6); }
-  .border-chart-2\/30 { border-color: rgb(255 237 78 / 0.3); }
-  .border-chart-2\/60 { border-color: rgb(255 237 78 / 0.6); }
-  .border-chart-3\/30 { border-color: rgb(255 59 48 / 0.3); }
-  .border-chart-3\/60 { border-color: rgb(255 59 48 / 0.6); }
-  .border-chart-5\/30 { border-color: rgb(0 122 255 / 0.3); }
-  .border-chart-5\/60 { border-color: rgb(0 122 255 / 0.6); }
+  .border-primary\/50 { border-color: rgb(0 218 60 / 0.5); }
+  .border-accent\/50 { border-color: rgb(0 218 60 / 0.5); }
+  .border-chart-2\/50 { border-color: rgb(255 237 78 / 0.5); }
+  .border-chart-3\/50 { border-color: rgb(255 59 48 / 0.5); }
+  .border-chart-5\/50 { border-color: rgb(0 122 255 / 0.5); }
+  .shadow-primary\/30 { box-shadow: 0 0 15px rgb(0 218 60 / 0.3); }
+  .shadow-accent\/30 { box-shadow: 0 0 15px rgb(0 218 60 / 0.3); }
+  .shadow-chart-2\/30 { box-shadow: 0 0 15px rgb(255 237 78 / 0.3); }
+  .shadow-chart-3\/30 { box-shadow: 0 0 15px rgb(255 59 48 / 0.3); }
+  .shadow-chart-5\/30 { box-shadow: 0 0 15px rgb(0 122 255 / 0.3); }
 }
 
 @custom-variant dark (&:is(.dark *));
